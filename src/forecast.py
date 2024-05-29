@@ -10,7 +10,7 @@ def load_and_forecast(column_name, series, steps=36):
     forecast = model.get_forecast(steps=steps)
     return forecast.predicted_mean
 
-input_file = '../datasets/view.csv'  
+input_file = '../datasets/view.csv' #укажите путь до вашего датасета  
 output_file = '../datasets/output.csv'
 models_dir = '../models'
 
